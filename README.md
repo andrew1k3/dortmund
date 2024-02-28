@@ -1,8 +1,8 @@
 # Borussia Dortmund Fan Website
 
-Welcome to the Borussia Dortmund Fan Website, a project created for COMP1720 class in web design.
+Welcome to my Borussia Dortmund Fan Website, a project created for COMP1720 class in web design.
 
-![Borussia Dortmund](https://your_image_url_here)
+![Borussia Dortmund]([https://your_image_url_here](https://upload.wikimedia.org/wikipedia/commons/7/74/Borussia_Dortmund.png))
 
 ## Description
 

@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap);
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Make every font Helvetica 'if otherwise not specified', make the background white, and set the height of the body to 100% of the viww height */
+body {
+    font-family: 'Helvetica';
+    background-color: white;
+    height: 100vh;
+    overflow-x: hidden; 
+}
+
+/* Various keyframe animations for navbar hover events (used later on) */
+
+/* This keyframe animation, 'fade', goes from 0% (black text, yellow background), to 100% (white text, black background), in an yet unspecified amount of time */
+@keyframes fade {
+    0% {color: black; background-color: #FDE100;}
+    100% {color: white; background-color: black;}
+}
+
+/* This keyframe animation, 'invert', goes from 0% (normal), to 100% (colours inverted), in an yet unspecified amount of time */
+@keyframes invert {
+    0% {filter: invert(0%);}
+    100% {filter: invert(100%);}
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue';
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;   
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #FDE100;
+    height: 40px;
+    padding: 10px;
+    font-family: 'Bebas Neue'
+}
+
+.right {
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+
+.right > a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.left {
+    float: left;
+    padding: 0px;
+}
+
+.left > a {
+    float: left;
+    padding-bottom: 0px;
+}
+
+.active {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#logo {
+    width: 38px;
+    padding: 0px;
+}
+
+.right > a:hover {
+    animation: fade 0.3s forwards;
+}
+
+.left > a:hover {
+    animation: invert 0.3s forwards;
+}

@@ -1,0 +1,247 @@
+.main {
+    display: flex;
+    margin-top: 0px;
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(30, 31, 6, 0.8);
+}
+
+.team-div {
+    background-color: black;
+    border: 10px #FDE100 solid;
+    min-width: 60%;
+    min-height: 78%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 55px;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    box-shadow: 0 0 30px black;  
+    color: #FDE100;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.text {
+    margin-bottom: 10vh;
+}
+
+.anchor-div {
+    display: inherit;
+    justify-content: center;
+    scroll-behavior: smooth;
+    text-shadow: 0 0 30px black;   
+    width: 20%;
+} 
+
+.anchor {
+    text-decoration-color: white;
+}
+
+.anchor:hover {
+    text-decoration-color: #FDE100;
+}
+
+.footer {
+    height: 80px;
+    background-color: #FDE100;
+}
+
+
+h1, h2, h5, .arrow, .mission {
+    position: relative;
+    text-align: center;
+    color: white;  
+}
+
+.title {
+    color: #FDE100;
+    text-shadow: 0 0 30px black;    
+}
+
+.ball-div {
+    position: absolute;
+    bottom: -50px;
+    left: -200px;
+}
+
+.ball {
+    width: 200px;
+}
+
+.ball2-div {
+    position: absolute;
+    top: 2220px;
+    right: 0px;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #FDE100;
+}
+
+.info {
+    display: inherit;
+    flex-direction: column;
+    box-shadow: 0 0 30px black;
+    padding: 0 10px 10px 10px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+.info-image {
+    width: 200px;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.info-num {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.info-name {
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.player-img {
+    border-radius: 10%;
+}
+
+.player-img:hover {
+    filter: brightness(150%);
+    cursor: pointer;
+}
+
+area, map {
+    display: none;
+}
+
+.mission {
+    left: 25%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    color: #FDE100;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 100;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.achievements-div {
+    position: relative;
+}
+
+.achievements-img {
+    width: 100vw;
+}
+
+.achievements-div:hover {
+    cursor: pointer;
+}
+
+.logo-div {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+
+.social-div {
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    position:fixed;
+    font-family: 'Bebas Neue';
+    background-color: #FDE100;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    box-shadow: 0 0 30px black;
+}
+
+.footer-child {
+    display: flex;
+    position: inherit;
+}
+
+.footer-child a {
+    margin: 0 0.2rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    padding: 20px;
+    width: 25px;
+    height: 19px;
+    text-decoration: none;
+    border: #FDE100 1px solid;
+    color: black; 
+    border-left: 1px solid #FDE100;
+    border-right: 1px solid #FDE100;
+}
+
+.fa-instagram {
+    background: crimson;
+    color: white;
+}
+
+.fa-twitter {
+    background: cornflowerblue;
+    color: white;
+}
+
+.fa-facebook {
+    background: blue;
+    color: white;
+}

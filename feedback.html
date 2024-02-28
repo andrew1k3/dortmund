@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar left">
+            <a href="index.html"><img id="logo" src="Images/Borussia_Dortmund_logo.png" alt="Dortmund logo"/></a>
+        </div>
+        <div class="navbar right">
+            <a href="me.html">About Me/My Passion</a>
+            <a href="sourcelog.html">Source Log</a>
+            <a href="feedback.html" class="active">Feedback</a>
+            <a href="sitemap.html">Sitemap</a>
+            <a href="assignment.html" target="#">Assignment</a>
+            <a href="https://www.anu.edu.au/" target="#">ANU Website</a>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Feedback Form</h1>
+        <form action="mailto:u7683345@anu.edu.au" enctype="text/plain">
+            <label>Your name</label>
+            <input type="text" placeholder="Your name is..." size="38" name="Contact-Name">
+
+            <label>Your email address</label>
+            <input type="text" placeholder="Your email is..." size="38" name="Contact-Email">
+
+            <label>What is your gender?</label>
+            <input type="radio" id="male" value="Male" name="gender"> Male
+            <input type="radio" id="female" value="Female" name="gender"> Female
+            <input type="radio" id="other" value="Other" name="gender"> Other
+            <input type="radio" id="prefernot" value="PreferNot" name="gender"> Prefer not to say
+
+            <label>Please fill in your feedback</label>
+            <textarea placeholder="Please type any feedback here..." name="Contact-Message"></textarea>
+            <div id="btns">
+                <button style="display:inline;" id="sub" type="submit" value="Submit">Send it</button>
+                or
+                <button style="display:inline;" id="clear" type="reset" value="Reset">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

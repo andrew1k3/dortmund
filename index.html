@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <title>Borrusia Dortmund</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar left">
+            <a href="index.html" ><img id="logo" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo"/></a>
+        </div>
+        <div class="navbar right">
+            <a href="me.html">About Me/My Passion</a>
+            <a href="sourcelog.html">Source Log</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="sitemap.html">Sitemap</a>
+            <a href="assignment.html" target="#">Assignment</a>
+            <a href="https://www.anu.edu.au/" target="#">ANU Website</a>
+        </div>
+    </div>
+    <div class="main">
+        &nbsp;
+        <div class="text"> 
+            <h1 class="title">Borrusia Dortmund</h1>
+            <div class="mission">
+                This website's mission is to become a hub for all the things a Borrusia Dortmund fan or soon-to-be fan would want!
+                <br> 
+                Some of features include:
+                <br> 
+                <br> • Team Roster/Players
+                <br> • Achievements/Timeline
+                <br> • More...
+            </div>
+            <a class="anchor" href="#team-label">
+                <div class="anchor-div">
+                    <h2>MEET THE TEAM</h2>
+                </div>
+            </a>
+        </div> 
+    </div>
+
+    <div id="ball-div" class="ball-div">
+        <img id="ball" class="ball" src="Images/imgbin_soccer-ball-png.png" alt="picture of soccer ball">
+    </div>
+
+    <h1 id="team-label" class="title">First Team</h1>
+    <div id="info-div" class="info-wrapper">
+        <div class="info"> 
+            <h2>Click a player for more information!</h2>
+            <img class="info-image" src="Images/Team/Youssoufa-Moukoko_bvbprofilbild_regular.jpg" alt="soccer player for dortmund">
+            <h2 class="info-num">18</h2>
+            <h3 class="info-name">Youssoufa Moukoko</h3>
+            <br> Age: 18 | Nationality: Cameroon | Position: Striker
+        </div>
+    </div>
+    <div id="team-div" class="team-div">
+        <table class="team-table attack">
+            <tr>
+                <td><a onclick="updateInfo(0);"><img class="player-img" src="Images/Team/Youssoufa-Moukoko_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(1);"><img class="player-img" src="Images/Team/Sebastien-Haller_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(2);"><img class="player-img" src="Images/Team/Karim-Adeyemi_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+            </tr>
+            <tr>
+                <td>Youssoufa Moukoko</td>
+                <td>Sebastien Haller</td>
+                <td>Karim Adeyemi</td>
+            </tr>
+        </table>
+        <table class="team-table midfield">
+            <tr>
+                <td><a onclick="updateInfo(3);"><img class="player-img" src="Images/Team/Giovanni-Reyna_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(4);"><img class="player-img" src="Images/Team/Marco-Reus_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(5);"><img class="player-img" src="Images/Team/Emre-Can_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(6);"><img class="player-img" src="Images/Team/Julian-Brandt_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(7);"><img class="player-img" src="Images/Team/Jude-Bellingham_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+            </tr>
+            <tr>
+                <td>Giovanni Reyna</td>
+                <td>Marco Reus</td>
+                <td>Emre Can</td>
+                <td>Julian Brandt</td>
+                <td>Jude Bellingham</td>
+            </tr>
+        </table>
+        <table class="team-table defence">
+            <tr>
+                <td><a onclick="updateInfo(8);"><img class="player-img" src="Images/Team/Raphael-Guerreiro_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(9);"><img class="player-img" src="Images/Team/Nico-Schlotterbeck_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(10);"><img class="player-img" src="Images/Team/Mats-Hummels_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+                <td><a onclick="updateInfo(11);"><img class="player-img" src="Images/Team/Niklas-Suele_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+            </tr>
+            <tr>
+                <td>Raphael Guerreiro</td>
+                <td>Nico Schlotterbeck</td>
+                <td>Mats Hummels</td>
+                <td>Niklas Sule</td>
+            </tr>
+        </table>
+        <table class="team-table goalkeeper">
+            <tr>
+                <td><a onclick="updateInfo(12);"><img class="player-img" src="Images/Team/Gregor-Kobel_bvbprofilbild_regular.jpg" alt="soccer player for dortmund"></a></td>
+            </tr>
+            <tr>
+                <td>Gregor Kobel</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="ball2-div" class="ball2-div">
+        <img class="ball" src="Images/imgbin_soccer-ball-png.png" alt="picture of soccer ball"> 
+    </div>
+
+    <h1 class="title">Achievements</h1>
+    <h2 style="color:black">Click an achievement to see more!</h2>
+    <div id="achievements-div" class="achievements-div">
+        <img src="Images/Achievements/achievements-graphic.png" usemap="#trophies" class="achievements-img" alt="achievements of dortmund">
+        <map name="trophies">
+            <area shape="rect" coords="250,100,950,500" alt="Bundesliga Champions" href="https://en.wikipedia.org/wiki/Bundesliga" target="#">
+            <area shape="rect" coords="1025,75,1700,500" alt="UEFA Champions League Champions" href="https://en.wikipedia.org/wiki/UEFA_Champions_League" target="#">
+            <area shape="rect" coords="225,550,650,1000" alt="Intercontinental Cup" href="https://en.wikipedia.org/wiki/Intercontinental_Cup_(football)" target="#">
+            <area shape="rect" coords="725,575,1175,1025" alt="DFB Pokal Cup" href="https://en.wikipedia.org/wiki/DFB-Pokal" target="#">
+            <area shape="rect" coords="125,550,1750,950" alt="UEFA Winner's Cup" href="https://en.wikipedia.org/wiki/UEFA_Cup_Winners%27_Cup" target="#">
+        </map>
+    </div>
+
+    <div id="logo-div" class="logo-div">
+        <img class="ball spinner" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo">
+        <img class="ball spinner" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo">
+        <img class="ball spinner" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo">
+        <img class="ball spinner" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo">
+        <img class="ball spinner" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo">
+        <img class="ball spinner" src="Images/Borussia_Dortmund_logo.png" alt="dortmund logo">
+    </div>
+
+    <h1 class="title" id="social">Social Feed</h1>
+    <div class="social-div"> 
+        <a class="twitter-timeline" data-lang="en" data-width="500" data-height="800" data-theme="light" href="https://twitter.com/BlackYellow?ref_src=twsrc%5Etfw">Tweets by BlackYellow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div id="footer" style="display:none;">
+        <div style="position:inherit; margin:20px; left:0;">Copyright © 2023 Andrew Gardner</div>
+        <div class="footer-child">
+            <a href="https://www.instagram.com/bvb09/" target="#" class="fa fa-instagram"></a>
+            <a href="https://twitter.com/BlackYellow" target="#" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/BVB" target="#" class="fa fa-facebook"></a>
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>

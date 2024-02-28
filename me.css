@@ -1,0 +1,71 @@
+.out {
+    background-image: url("Images/canberrabackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+area {
+    border: 1px solid red;
+}
+
+.out::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.content {
+    position: relative; 
+    margin-left: 20vw;
+    margin-right: 20vw;
+    z-index: 5;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypassion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#teamphoto {
+    max-width: 400px;
+}
+
+#mephoto {
+    max-height: 400px;
+}
+
+#codephoto {
+    max-width: 850px;
+}
+
+label {
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    font-size: 13px;
+    margin: 10px;
+    display: block;
+}
+
+p {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+/* This main wrapper encompasses the rest of the content. I do this so I centre everything down in one column */
+.main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* This is applied to the 'tbl' div class. I want to space my margin at the top by 10 and constrict the div to only go 70% of the view width for formatting */
+.tbl {
+    display: grid;
+    margin-top: 10px;
+    width: 70vw;
+}
+
+/* This is applied to every table, td (table description), and th (table header). I want to have a single border, align text to the left, and give some padding */
+table, td, th {
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Make the table border yellow. */
+table {
+    border: 2px #FDE100 solid;
+}
+
+/* Make every link blue (no matter if clicked or not)*/
+a {
+    color: blue;
+}
+
+/* Make the table headers boxes have a yellow background and white text */
+th {
+    background-color: #FDE100;
+    color: white;
+}
+
+/* Upon hovering over a given row, the table will change its background colour to a light yellow, and this transition will happen over 0.3 seconds */
+tr:hover {
+    background-color: #fffbdc;
+    transition: 0.3s;
+}
+
+/* This is applied to a special 'caption' class. I want the text to be decently small, italicised, blue, and aligned in the center */
+#caption {
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    font-size: 13px;
+}
